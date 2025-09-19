@@ -1,4 +1,5 @@
 import React from "react";
+import NotFoundStatus from "../components/status/NotFound.jsx";
 export default function NotFound() {
-  return <div className="empty">Halaman tidak ditemukan (404)</div>;
+  return <NotFoundStatus />;
 }
